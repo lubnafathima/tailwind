@@ -1,5 +1,7 @@
 # Tailwind Tutorial  
 
+[Official Doc Of Tailwind CSS](https://tailwindcss.com/)
+
 Code Editor (VS Code)  
 Node Js(nodejs.org)  
 NPM Package(if you install Node Js then you don't have to install NPM)  
@@ -59,3 +61,61 @@ Edit the package.json as given below:
   
 Now run the following command in terminal: `npm run build-css`   
 A new folder `css > style.css` has been created  
+
+Let's get started with the project ---->  
+  
+Inside the root create a file called as index.html  
+At `index.html`, to generate html template enter `doc + tab icon`  
+
+```
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```  
+
+To link css with html in `head` link css like you usually do  
+``` <link rel="stylesheet" href="css/style.css"> ```  
+
+Let's create a simple h1, h2 and p tag with some content  
+```
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Hello There</h1>
+            <h2>Whatcha doing?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ex quae aliquid? Iste vel quisquam pariatur totam aliquam numquam laboriosam quos quae, quam ipsa repellendus nisi odio! Quam, eius ad.</p>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+## Font family  
+```
+<body>
+    <div>
+        <div>
+            <h1 class="font-sans">Hello There</h1>
+            <h2 class="font-serif">Whatcha doing?</h2>
+            <p  class="font-mono">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ex quae aliquid? Iste vel quisquam pariatur totam aliquam numquam laboriosam quos quae, quam ipsa repellendus nisi odio! Quam, eius ad.</p>
+        </div>
+    </div>
+</body>
+```  
+
