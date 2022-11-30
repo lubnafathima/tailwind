@@ -118,4 +118,10 @@ Let's create a simple h1, h2 and p tag with some content
     </div>
 </body>
 ```  
+<!-- 
+https://www.youtube.com/watch?v=TbQCMX0wwPo
+35:09 
+
+https://www.udemy.com/course/tailwindcss-2-learn-tailwindcss-for-beginners/learn/lecture/29622090#overview
+-->
 
